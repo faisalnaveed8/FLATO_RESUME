@@ -1,0 +1,19 @@
+git config --global user.name "Sam Smith"
+git config --global user.email sam@example.com
+
+
+git init                                 // intialize git project
+
+git add <filename> -A                       //////( Add files to GIT and -A to copy all files)
+
+git status                             // check status
+
+git commit -m "Commit message"             //to take snapshot but not added to remote repsitory yet
+
+git remote add origin https://github.com/faisalnaveed8/FLATO_RESUME.git (Link between snapshot and cloud hosting)
+
+git push origin master (Writing project to GIT Cloud)
+
+git clone https://github.com/faisalnaveed8/FLATO_RESUME.git (Clone project from GIT Cloud Link)
+
+git pull                  ////(Fetch and merge changes on the remote server to your working directory:)
